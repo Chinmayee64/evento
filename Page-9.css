@@ -1,0 +1,116 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(41,46,51,0.4), rgba(41,46,51,0.4)), url("images/college1.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 858px;
+}
+
+.u-section-1 .u-text-1 {
+  text-shadow: 4px 4px 8px rgba(66,84,101,0.4);
+  font-size: 6rem;
+  margin: 212px 192px 0 251px;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: none;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  width: 839px;
+  margin: 94px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  background-image: none;
+  margin: 106px auto 0 296px;
+  padding: 20px 55px 21px 54px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  background-image: none;
+  margin: -74px 275px 60px auto;
+  padding: 20px 55px 21px 54px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 707px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 151px;
+    margin-right: 233px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 96px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 75px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 542px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 23px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 407px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 211px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 229px;
+    margin-left: 19px;
+    margin-right: 19px;
+    font-size: 1.5rem;
+  }
+}

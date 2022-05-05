@@ -1,0 +1,118 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(41,46,51,0.4), rgba(41,46,51,0.4)), url("images/college.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 858px;
+}
+
+.u-section-1 .u-text-1 {
+  text-shadow: 4px 4px 8px rgba(66,84,101,0.4);
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: Roboto, sans-serif;
+  text-transform: none;
+  margin: 195px 222px 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: none;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  width: 839px;
+  margin: 80px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  background-image: none;
+  margin: 122px auto 0 348px;
+  padding: 20px 55px 21px 54px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  background-image: none;
+  margin: -74px 307px 60px auto;
+  padding: 20px 55px 21px 54px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 818px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 148px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 107px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 834px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 5rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 788px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    margin-right: 167px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 658px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin-right: 105px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+}

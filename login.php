@@ -25,7 +25,7 @@ if($row == 1){
 	$userquery = " insert into users(username) values ('$username')";
 	$userresult = mysqli_query($con,$userquery) ;
 
-	header('location:home.php');	
+	header('location:home.html');	
 }else{
 	header('location:index1.php');
 }
